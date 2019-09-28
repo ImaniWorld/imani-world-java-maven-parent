@@ -1,2 +1,2 @@
-# imani-java-maven-parent
-Parent maven java pom for all Imani related java projects
+# imani-world-java-maven-parent
+Java Parent maven pom module to be used for all Imani World Mavean related java projects
