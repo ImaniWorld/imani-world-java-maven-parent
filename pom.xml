@@ -15,6 +15,7 @@
   <properties>
   	 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 <!--	  <spring.boot.version>2.0.4.RELEASE</spring.boot.version>-->
+	  <mysql-connector-java.version>8.0.25</mysql-connector-java.version>
 	  <spring-security-oauth2.version>2.1.6.RELEASE</spring-security-oauth2.version>
 	  <java.version>1.8</java.version>
 	  <mockito.version>2.0.2-beta</mockito.version>
@@ -37,6 +38,13 @@
   
   <dependencyManagement>
   	<dependencies>
+
+		<!-- MySQL Java JDBC Driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql-connector-java.version}</version>
+		</dependency>
 
 		<!-- Spring dependencies -->
 		<dependency>
